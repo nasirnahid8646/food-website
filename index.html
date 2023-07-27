@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+<!--Tailwind and daist ui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!--Google font Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-lato">
+    <header class="container mx-auto">
+        <section>
+            <div class="hero min-h-screen" style="background-image: url(images/banner4.png);">
+                <div class="hero-overlay bg-opacity-70"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w">
+                    <h1 class="mb-5 text-7xl font-bold color-white">Exotic tastes at your <br>doorstep</h1>
+                    <p class="mb-7 text-1xl">We supply highly quality organic products</p>
+                    <button class="btn btn-error text-white">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+<!--Deal & Countdown-->
+        <section class="container mx-auto my-24">
+            <div class=" flex flex-col lg:flex-row gap-80 mb-5 ">
+                <div>
+                    <h3 class="mb-5 text-5xl font-bold">Deal of the day</h3>
+                    <p class="text-1xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-lato font-bold text-5xl">
+                            <span style="--value:15;"></span>:
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-lato font-bold text-5xl">
+                            <span style="--value:10;"></span>:
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-lato font-bold text-5xl">
+                            <span style="--value:24;"></span>:
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-lato font-bold text-5xl">
+                            <span style="--value:51;"></span>
+                          </span>
+                          sec
+                        </div>
+                    </div>
+            </div>
+<!--Card Container-->
+            <div class="items-center">
+                <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-7">
+<!--First Card-->
+                <div class="card w-80 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                    <img src="images/fruit6.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+                    <p>Apples</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <button class="btn btn-link text-error">Details</button>
+                    </div>
+                </div>
+<!--Second Card-->
+                <div class="card w-80 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                    <img src="images/fruit7.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+                    <p>Orange</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <button class="btn btn-link text-error">Details</button>
+                    </div>
+                </div>
+<!--Third Card-->
+                <div class="card w-80 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                    <img src="images/fruit8.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+                    <p>Red Dragon</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <button class="btn btn-link text-error">Details</button>
+                    </div>
+                </div>
+<!--Fourth Card-->
+                <div class="card w-80 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                    <img src="images/fruit9.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+                    <p>Banana</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <button class="btn btn-link text-error">Details</button>
+                    </div>
+                </div>
+                </div>
+                    <button class="btn btn-error text-white">Shop All</button>
+            </div>
+        </section>
+<!--Team Section-->
+        <section class="container mx-auto my-24">
+            <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-70">
+                </div>
+                <div class="text-center items-center text-neutral-content">
+                    <div class="max-w-lg">
+                    <h1 class="mb-5 text-4xl font-bold">Meet the team section</h1>
+                    <p class="mb-7 text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                    <div class="flex gap-20">
+                        <div><img src="images/member1.png" alt="">
+                            <h6 class="text-2xl font-bold my-6">Awlad Hossain</h6>
+                            <p class="text-xs">Fruits Expert</p>                          
+                        </div>
+                        <div><img src="images/member2.png" alt="">
+                            <h6 class="text-2xl font-bold my-6">Awlad Hossain</h6>
+                            <p class="text-xs">Fruits Expert</p>
+                        </div>
+                        <div><img src="images/member3.png" alt="">
+                            <h6 class="text-2xl font-bold my-6">Awlad Hossain</h6>
+                            <p class="text-xs">Fruits Expert</p>
+                        </div>
+                        <div><img src="images/member4.png" alt="">
+                            <h6 class="text-2xl font-bold my-6">Awlad Hossain</h6>
+                            <p class="text-xs">Fruits Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>       
+    </main>
+<!--Footer Section-->
+    <footer class=" footer footer-center bg-heading-color text-white rounder py-10 md:py-24">
+                <div>
+                    <img src="images/logo.png" alt="">
+                    <h3 class="text-4xl font-bold mb-8">Fruit Burst</h3>
+                </div>
+
+                <div class="flex flex-col md:text-lg md:font-medium sm:flex-row gap-6 sm:gap-10">
+                <div class=" flex gap-6 sm:gap-10">
+                    <a class="link link-hover">Home</a> 
+                    <a class="link link-hover">About Us</a> 
+                    <a class="link link-hover">Shop</a> 
+                    <a class="link link-hover">All Fruits</a>
+                </div>
+                <div class=" flex gap-6 sm:gap-10"></div>
+                    <a class="link link-hover">Support</a>
+                    <a class="link link-hover">My Account</a>
+                </div> 
+
+    </footer>
+</body>
+</html>
