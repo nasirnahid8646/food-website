@@ -19,6 +19,7 @@
 </head>
 <body class="font-lato">
     <header class="container mx-auto">
+<!--Banner Section-->
         <section>
             <div class="hero min-h-screen" style="background-image: url(images/banner4.png);">
                 <div class="hero-overlay bg-opacity-70"></div>
@@ -34,10 +35,10 @@
     </header>
     <main>
 <!--Deal & Countdown-->
-        <section class="container mx-auto my-24">
-            <div class=" flex flex-col lg:flex-row gap-80 mb-5 ">
+        <section class="container text-center my-24">
+            <div class="flex flex-col lg:flex-row gap-80 mb-5">
                 <div>
-                    <h3 class="mb-5 text-5xl font-bold">Deal of the day</h3>
+                    <h3 class="mb-4 text-5xl text-left font-bold">Deal of the day</h3>
                     <p class="text-1xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
@@ -143,7 +144,7 @@
                     </div>
                 </div>
                 </div>
-                    <button class="btn btn-error text-white mx-auto">Shop All</button>
+                    <button class="btn btn-error text-white">Shop All</button>
             </div>
         </section>
 <!--Team Section-->
@@ -157,24 +158,24 @@
                     <p class="mb-7 text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
                     <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-7">
-                        <div class="">
+                        <div class="card-body">
                             <img src="images/member1.png" alt="">
-                            <h6 class="text-2xl font-bold my-6">Awlad Hossain</h6>
+                            <h6 class="text-2xl font-bold">Awlad Hossain</h6>
                             <p class="text-xs">Fruits Expert</p>                          
                         </div>
-                        <div>
+                        <div class="card-body">
                             <img src="images/member2.png" alt="">
-                            <h6 class="text-2xl font-bold my-6">Safia Chowdhury</h6>
+                            <h6 class="text-2xl font-bold">Safia Chowdhury</h6>
                             <p class="text-xs">Fruits Expert</p>
                         </div>
-                        <div>
+                        <div class="card-body">
                             <img src="images/member3.png" alt="">
-                            <h6 class="text-2xl font-bold my-6">Rokib Hossain</h6>
+                            <h6 class="text-2xl font-bold">Rokib Hossain</h6>
                             <p class="text-xs">Fruits Expert</p>
                         </div>
-                        <div>
+                        <div class="card-body">
                             <img src="images/member4.png" alt="">
-                            <h6 class="text-2xl font-bold my-6">Chaity</h6>
+                            <h6 class="text-2xl font-bold">Chaity</h6>
                             <p class="text-xs">Fruits Expert</p>
                         </div>
                     </div>
@@ -184,22 +185,22 @@
     </main>
 <!--Footer Section-->
     <footer class=" footer footer-center bg-neutral text-white rounder py-10 md:py-24">
-        <div class="mb-20">
-            <div class="flex gap-2">
-                <img class="w-8 lg:w-12" src="images/logo.png" alt="">
-                <h3 class="text-4xl font-bold mb-8">Fruit Burst</h3>
-            </div>
-            <div class="gap-6 flex flex-col sm:flex-cols-3 md:flex-cols-4 sm:gap-10">
-            <div class=" flex gap-6">
+        <div class="flex gap-2">
+            <img class="w-8 lg:w-12" src="images/logo.png" alt="">
+            <h3 class="text-4xl font-bold mb-5">Fruit Burst</h3>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:gap-10">
+            <div class="flex gap-6 sm:gap-10">
                 <a class="link link-hover">Home</a> 
                 <a class="link link-hover">About Us</a> 
                 <a class="link link-hover">Shop</a> 
                 <a class="link link-hover">All Fruits</a>
+            <div class="flex gap-6 sm:gap-10">
                 <a class="link link-hover">Support</a>
                 <a class="link link-hover">My Account</a>
             </div>
-            </div> 
-        </div>
+            </div>
+        </div> 
     </footer>
 </body>
 </html>
